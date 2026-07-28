@@ -1,0 +1,67 @@
+:root {
+    --bg-img: url("../images/bg-light.jpg");
+    --glass-bg: rgba(255, 255, 255, 0.05);
+    --glass-border: rgba(255, 255, 255, 0.40);
+    --glass-blur: 12px;
+    --display-bg: rgba(255, 255, 255, 0.15);
+    --display-border: rgba(255, 255, 255, 0.10);
+    --color-hdr: #ffffff;
+    --color-tag: rgba(186, 230, 253, 0.45);
+    --color-expr: rgba(186, 230, 253, 0.60);
+    --color-result: rgba(224, 242, 254, 0.92);
+    --btn-bg: rgba(255, 255, 255, 0.20);
+    --btn-border: rgba(255, 255, 255, 0.12);
+    --btn-color: rgba(224, 242, 254, 0.92);
+    --btn-hover-bg: rgba(255, 255, 255, 0.13);
+    --btn-eq-bg: rgba(255, 255, 255, 0.35);
+    --tg-border: rgba(255, 255, 255, 0.40);
+    --tg-thumb: rgba(255, 255, 255, 0.80);
+    --tg-bg: rgba(255, 255, 255, 0.10);
+}
+
+body.dark {
+    --bg-img: url("../images/bg-dark.jpg");
+    --display-bg: rgba(35, 20, 60, 0.20);
+    --display-border: rgba(180, 140, 255, 0.10);
+    --color-hdr: #a855f7;
+    --color-tag: rgba(210, 180, 255, 0.45);
+    --color-expr: rgba(210, 180, 255, 0.60);
+    --color-result: rgba(240, 225, 255, 0.92);
+    --btn-border: rgba(180, 140, 255, 0.12);
+    --btn-color: rgba(240, 225, 255, 0.92);
+    --btn-eq-bg: rgba(168, 85, 247, 0.35);
+    --tg-border: rgba(210, 180, 255, 0.40);
+    --tg-thumb: rgba(240, 225, 255, 0.80);
+    --tg-bg: rgba(210, 180, 255, 0.10);
+}
+
+.theme-tg {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 10;
+    display: block;
+    width: 44px;
+    height: 24px;
+    border-radius: 5px;
+    border: 1px solid var(--tg-border);
+    background: var(--tg-bg);
+    cursor: pointer;
+    transition: background 0.4s ease, border-color 0.4s ease;
+}
+
+.tg-thumb {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 16px;
+    height: 16px;
+    border-radius: 10%;
+    background: var(--tg-thumb);
+    transition: left 0.25s ease, background 0.4s ease;
+    will-change: left;
+}
+
+#tSwitch:checked ~ .tg-thumb {
+    left: 23px;
+}

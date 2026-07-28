@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple-calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/theme.css">
+</head>
+<body>
+    <div id="bg" aria-hidden="true"></div>
+    <label class="theme-tg">
+        <input type="checkbox" id="tSwitch" hidden>
+        <span class="tg-thumb"></span>
+    </label>
+    <div class="calc">
+        <div class="calc-header">
+            <span class="main-hdr">Calculator</span>
+            <span class="tag-hdr">FaruzaraDev</span>
+        </div>
+        <div class="display">
+            <div class="dis-expr" id="expr">&nbsp;</div>
+            <div class="dis-result" id="result">0</div>
+        </div>
+        <div class="button">
+            <button class="btn"data-action="clear">C</button>
+            <button class="btn"data-action="back">⌫</button>
+            <button class="btn"data-value="(">(</button>
+            <button class="btn"data-value=")">)</button>
+            <button class="btn"data-value="1">1</button>
+            <button class="btn"data-value="2">2</button>
+            <button class="btn"data-value="3">3</button>
+            <button class="btn"data-value="/">÷</button>
+            <button class="btn"data-value="4">4</button>
+            <button class="btn"data-value="5">5</button>
+            <button class="btn"data-value="6">6</button>
+            <button class="btn"data-value="*">×</button>
+            <button class="btn"data-value="7">7</button>
+            <button class="btn"data-value="8">8</button>
+            <button class="btn"data-value="9">9</button>
+            <button class="btn"data-value="-">−</button>
+            <button class="btn"data-value="0">0</button>
+            <button class="btn"data-value=".">.</button>
+            <button class="btn"data-value="%">%</button>
+            <button class="btn"data-value="+">+</button>
+            <button class="btn btn-eq"data-action="eq">=</button>
+        </div>
+    </div>
+    <script src="js/parse.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
