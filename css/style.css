@@ -55,7 +55,6 @@ body {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    transition: background 0.4s ease;
 }
 
 .tag-hdr {
