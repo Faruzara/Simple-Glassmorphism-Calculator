@@ -1,28 +1,46 @@
 # Simple Calculator
 
-A simple calculator built using HTML, CSS, and JavaScript.
+A modern and responsive calculator built with HTML, CSS, and JavaScript.
 
 ## Features
 
-- Basic arithmetic operations (+, -, ×, ÷)
+- Basic arithmetic operations (+, −, ×, ÷)
 - Percentage calculation
 - Clear & Backspace
-- Modern UI
-- Glassmorphism design
 - Dark & Light mode
+- Modern glassmorphism interface
+- No `eval()` usage
 
 ## Technologies
-- HTML5
-- CSS3
+
+- HTML
+- CSS
 - JavaScript
+
+## Project Structure
+
+```text
+simple-calculator/
+├── css/
+├── images/
+├── js/
+└── index.html
+```
 
 ## Preview
 
-Dark Mode
-<img width="1359" height="767" alt="image" src="https://github.com/user-attachments/assets/5e00213f-2c00-4ef6-bb67-93ede945bebf" />
-Light Mode
-<img width="1359" height="767" alt="image" src="https://github.com/user-attachments/assets/ce1dc7c5-5cdf-4585-8490-24141b9878f2" />
+### Dark Mode
 
+<img width="1359" height="767" alt="Dark Mode Preview" src="https://github.com/user-attachments/assets/5e00213f-2c00-4ef6-bb67-93ede945bebf" />
+
+### Light Mode
+
+<img width="1359" height="767" alt="Light Mode Preview" src="https://github.com/user-attachments/assets/ce1dc7c5-5cdf-4585-8490-24141b9878f2" />
+
+## Demo
+
+https://faruzara.github.io/simple-calculator/
 
 ## Author
+
 Faruzara
