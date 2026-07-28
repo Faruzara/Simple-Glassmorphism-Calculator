@@ -27,6 +27,10 @@ simple-calculator/
 └── index.html
 ```
 
+## Demo
+
+https://faruzara.github.io/Simple-Glassmorphism-Calculator/
+
 ## Preview
 
 ### Dark Mode
@@ -36,10 +40,6 @@ simple-calculator/
 ### Light Mode
 
 <img width="1359" height="767" alt="Light Mode Preview" src="https://github.com/user-attachments/assets/ce1dc7c5-5cdf-4585-8490-24141b9878f2" />
-
-## Demo
-
-https://faruzara.github.io/simple-calculator/
 
 ## Author
 
